@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="icon" type="image/png" href="favicon.png">
 
@@ -28,10 +29,10 @@
               <a class="nav-link" href="#">Audits</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Training</a>
+                <a class="nav-link" href="/training/">Training</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Advisory</a>
+              <a class="nav-link" href="/advisory">Advisory</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -54,9 +55,12 @@
               <div class="col-6 col-md-4">
                   <br>
                   <br>
-                  <br>
-                  <br>
-                  <img src=pic.jpg alt="our tool" height="400" width="700">
+                  <figure>
+                    <img src=pic.jpg alt="our tool" height="400" width="700">
+                    <figcaption class="caption">
+                      <em>Our proprietary offensive tool</em>
+                    </figcaption>
+                  </figure>
               </div>
           </div>
           <div class="row">
@@ -72,11 +76,12 @@
               <div class="col-6 col-md-4">
                 <br>
                 <h5>Want to learn more? Send us your contact information and a professional will get back to you!</h5>
+                <br>
                 <form
                 action="https://formspree.io/xeqzodql"
                 method="POST"
               >
-                <label>
+                <label class="emailInput">
                   Your email:
                   <input type="text" name="_replyto">
                 </label>
@@ -87,11 +92,16 @@
               
                 <!-- your other form fields go here -->
               
-                <button type="submit">Send</button>
+                <button class="submitButton" type="submit">Send</button>
               </form>
               </div>
           </div>
       </div>
+      <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Your Website</small>
+        </div>
+      </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

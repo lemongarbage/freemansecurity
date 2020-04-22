@@ -1,0 +1,40 @@
+figure {
+  display: inline-block;
+  border: 1px gray;
+  margin: 20px;
+}
+
+figure img {
+  vertical-align: top;
+}
+
+figure figcaption {
+  border: 1px blue;
+  text-align: center;
+}
+
+.emailInput {
+  padding-left: 25px;
+}
+
+.submitButton {
+  margin-left: 180px;
+}
+
+header {
+  text-align: center;
+}
+
+.maincontent {
+  display: flex;
+  margin-top: 40px;
+}
+
+.maincontent h3 {
+  text-align: center;
+}
+
+.maincontent section {
+  margin-left: 40px;
+  font-size: 20px;
+}
